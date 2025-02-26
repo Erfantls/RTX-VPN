@@ -1,14 +1,14 @@
 ## [English](/README.md) | [فارسی](/README_fa.md)
 # L2TP/OpenVPN Server with Xray + Rathole + tun2socks Tunnel
 # RTX-VPN = (Rathole-tun2socks-Xray) VPN
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/screenshots/menu.png)
+![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/v1/screenshots/menu.png)
 ## What Does this script do?
 This script provides a solution for setting up and tunneling L2TP/OpenVPN in restricted locations (e.g., Iran, China).
 
 It aims to tunnel traffic via Xray-core in reverse mode (rathole), making the tunnel traffic appear legitimate.
 
 ## Diagram:
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/diagram.PNG)
+![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/v1/diagram.PNG)
 
 ## How does it work?
 We need two servers: one for incoming L2TP/OpenVPN connections and the other as the endpoint of our connection. The first server (Tunnel Server) will be considered a server with no limit on incoming L2TP/OpenVPN traffic, unlike the Edge Server, which we cannot connect to directly.
@@ -67,9 +67,9 @@ Xray-Core Edge Service: ```xray_edge.service```
 rathole Edge Service: ```rathole_edge.service```
 
 ## Speedtest: L2TP
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/screenshots/l2tp/speedtest.jpg)
+![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/v1/screenshots/l2tp/speedtest.jpg)
 ## Speedtest: OpenVPN
-![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/main/screenshots/openvpn/speedtest.jpg)
+![App Screenshot](https://raw.githubusercontent.com/Sir-MmD/RTX-VPN/refs/heads/v1/screenshots/openvpn/speedtest.jpg)
 
 ### Note: The bandwidth of the tested internet connection is 35 Mbps download and 9 Mbps upload
 There are also screenshots of the DNS Leak Test from https://dnsleaktest.com, which can be found inside the 'screenshots' folder
